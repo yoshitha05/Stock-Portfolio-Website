@@ -1,4 +1,4 @@
-# Groww Clone — Backend
+# Backend
 
 
 ## Setup
