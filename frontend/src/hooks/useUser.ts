@@ -8,7 +8,7 @@ export const useUser = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const { data } = await api.get("/auth/me"); // We'll create this API
+        const { data } = await api.get("/auth/me");
         setUser(data);
       } catch (err) {
         console.error(err);
